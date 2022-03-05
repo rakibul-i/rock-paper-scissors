@@ -17,8 +17,10 @@ options.forEach((option) =>
     // showing answer
     if (userChoice === computerChoice) {
       result.innerHTML = "Correct";
+      result.setAttribute("style", "color:green");
     } else {
       result.innerHTML = "Incorrect";
+      result.setAttribute("style", "color:red");
     }
   })
 );

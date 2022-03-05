@@ -25,12 +25,24 @@ main h2 {
   font-weight: 400;
 }
 
-#computer-choice,
-#user-choice,
-#result {
-  color: green;
+#computer-choice {
+  color: rgb(230, 27, 186);
   font-weight: 700;
   font-size: 30px;
+  padding: 0 6px;
+}
+
+#user-choice {
+  color: rgb(214, 13, 214);
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0 6px;
+}
+
+#result {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 0 6px;
 }
 
 main div {
